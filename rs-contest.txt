@@ -1,6 +1,5 @@
 ### title: コンテスト自動化プログラム
 ### author: @meilleur_pkmn
-### date: 2022/07/16
 ###
 ### usage:
 ### ポケモンを選択し、
