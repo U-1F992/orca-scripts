@@ -9,3 +9,7 @@ ORCA GC Controller用スクリプト置き場
 ## [rs-picture-latios.txt](./rs-picture-latios.txt)
 
 絵画seedを活用したラティオス乱数調整
+
+# Reference
+
+[MacroScript文法](https://hackmd.io/@yatsuna827/BkrdTm4Md)
