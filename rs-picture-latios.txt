@@ -1,0 +1,73 @@
+### title: 絵画ラティオス
+### author: @meilleur_pkmn
+###
+### usage:
+### 手持ちを1体にして、マスターボールをボールの一番上に置く。
+### ミナモシティのコンテスト会場
+### 左端の絵画の前でセーブして、Run
+###
+### description:
+### エンカウントからマスボ捕獲、ステータスの表示までを行います。
+### 図鑑未登録時のボタン操作を行いますが、登録されていても問題ありません（B連打）。
+### 
+### 絵画seedについて
+### https://note.com/sub_827/n/ne1c3bf13eef0
+###
+### フレームカウンタ: 0x661B(F) = 26139 = 7分15秒程度
+### 待機: 65029(F) = 18分3秒程度
+### ひかえめ　めざ炎70　
+###
+### 絵画seedずれ: 63F
+### エンカウントずれ: -511F
+
+#
+# リセット
+#
+Press Z -i=2000
+Press A,dL,A,A -i=1000
+Press tl -d=4000 -i=1000
+# リセット実行とともにタイマースタート
+Press A -i=6000 -s=1
+Press A,A,A,A,A,A -i=1500
+
+#
+# 絵画表示
+#
+Hit A 26139 -l=1 -c=63 -s=2
+Wait 2000
+Press B
+Wait 2000
+
+#
+# エンカウント地点まで移動
+#
+# コンテスト会場脱出
+Press dD,dD,dD,dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dD,dD,dD,dD,dD,dD,dD,dD,dD -d=50 -i=500
+Wait 3000
+# 船着き場まで
+Press dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dL,dD,dD,dD,dD,dD,dD,dD,dD,dD,dR,dR,dR,dR,dR,dU,dU -d=50 -i=500
+Wait 2000
+# 移動->会話->乗船
+Press dL,dL,dL,dL,dU,dU,dU,dU -d=50 -i=500
+Press A,A,A -i=1500
+Wait 3000
+Press A,A,A,A,A -i=1500
+Wait 7000
+# みなみのことう移動
+Press dR,dR,dR,dU,dU,dU,dU,dU,dU,dU,dR,dR,dR,dR,dR,dR,dR,dR,dR,dR,dU,dU,dU,dU,dU,dU,dU,dU,dU,dL,dL,dL,dL,dL,dL,dD,dD,dL,dL,dL,dL,dL,dL,dU,dU,dU,dU,dU -d=50 -i=500
+Wait 2000
+Press dU,dU,dU,dU,dU,dU -d=50 -i=500
+
+#
+# エンカウント
+#
+Hit A 65029 -l=2 -c=-511
+Wait 15000
+Press B
+Wait 5000
+# マスターボールで捕獲
+Press dR,A -i=500
+Wait 2000
+Press dR,A,A -i=500
+Wait 15000
+Press B,B,B,B,St,dD,A,dD,A,A,dR -i=3000
