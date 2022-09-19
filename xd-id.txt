@@ -1,0 +1,20 @@
+# ID調整
+# 「シナリオを新しくはじめてもいいですか？」「はい」に合わせてRun
+Press A -s=0 -i=1500
+Press A -i=1500
+
+# 「キリン」
+Press dD,dR,A,dD,dD,dR,dR,dR,dR,dR,dR,A,dD,dR,A,dD,dD,dD -i=500
+
+Press A -i=500
+Hit A 1957 -l=0 -c=-8
+
+Wait 71000
+Press dD,dR -i=1400
+Press A -i=2000
+Press dR -i=500
+Press A -i=8000
+Press A -i=5000
+Press A,A,A -i=2000
+Press St,A,A -i=1500
+Press A
